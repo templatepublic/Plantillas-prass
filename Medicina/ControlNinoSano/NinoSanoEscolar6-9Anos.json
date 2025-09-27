@@ -95,9 +95,8 @@
       ]
     }
   ],
-  "maps": {
-    "selectorMapping": {
-      "common": {
+  "selectorMapping": {
+    "common": {
         "panel_lugar_atencion": "#btnIntraextramural",
         "panel_motivo": "#btnMotivo",
         "panel_signos_vitales": "#btnsignos_vitales",
@@ -207,5 +206,4 @@
         "odontograma_procedimiento_search": "#procedimientoodontograma_ctdetservicio_chosen .search-field input"
       }
     }
-  }
 }
