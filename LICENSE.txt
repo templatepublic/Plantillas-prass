@@ -1,0 +1,39 @@
+Licencia de Plantillas Comunitarias v1.0
+
+1. Naturaleza de las plantillas
+Estas plantillas JSON son creadas y compartidas por la comunidad como recurso gratuito.
+Su objetivo es servir como herramienta de productividad para agilizar el llenado de
+formularios y campos repetitivos en cualquier sistema digital.
+
+2. Permisos otorgados
+Se concede permiso gratuito y perpetuo para:
+- Usar, copiar y modificar las plantillas.
+- Integrarlas en cualquier aplicación o software, incluso de pago, siempre que las
+  plantillas no se comercialicen como producto independiente.
+- Compartirlas públicamente siempre que se mantenga esta licencia.
+
+3. Restricciones
+No está permitido:
+- Vender, revender o redistribuir las plantillas como producto independiente.
+- Incluirlas en servicios, paquetes o catálogos cuyo valor principal sea la reventa
+  o comercialización de estas plantillas.
+- Eliminar o modificar esta licencia al redistribuir las plantillas.
+
+4. Responsabilidad
+Las plantillas se distribuyen “tal cual”, sin garantía de ningún tipo, expresa o implícita.
+El uso de las plantillas es bajo responsabilidad exclusiva del usuario final, quien debe
+revisar, validar y confirmar la información generada con ellas.
+
+5. Atribución y distribución
+Se permite la redistribución siempre que:
+- Se conserve este archivo de licencia sin modificaciones.
+- Se haga referencia a este repositorio como fuente original.
+
+6. No afiliación
+Estas plantillas no están afiliadas, autorizadas, respaldadas ni aprobadas por PRASS ni
+por ninguna institución de salud pública o privada.
+
+---
+
+© Comunidad de usuarios – Plantillas de Autollenado  
+Versión 1.0 – 2025
