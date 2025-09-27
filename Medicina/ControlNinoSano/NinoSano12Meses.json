@@ -93,6 +93,7 @@
         {"type":"click","fieldId":"confirmar_receta"},
         {"type":"click","fieldId":"confirmar_receta_final"},
         {"type":"config","stepDelay":500},
+        {"type":"click","selector":"#plantratamiento","hard":true},
         {"type":"click","fieldId":"tab_receta"},
         {"type":"config","stepDelay":500},
         {"type":"field","fieldId":"receta_estado_paciente","valueText":"Crónico"},
