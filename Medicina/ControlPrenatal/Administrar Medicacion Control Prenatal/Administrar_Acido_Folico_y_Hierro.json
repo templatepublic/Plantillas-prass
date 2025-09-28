@@ -15,7 +15,7 @@
         {"type":"key","fieldId":"receta_medicamento_texto","key":"Enter","pressMs":20},
   
         {"type":"key","fieldId":"receta_diagnostico_search","key":"Enter","pressMs":20},
-        {"type":"field","fieldId":"receta_medicamento_texto","clear":true,"valueText":"SALES DE HIERRO + ACIDO FOLICO - SOLIDO ORAL - 60"},
+        {"type":"field","fieldId":"receta_medicamento_texto","clear":true,"valueText":"SALES DE HIERRO"},
         {"type":"key","fieldId":"receta_medicamento_texto","key":"Backspace","pressMs":20},
         {"type":"key","fieldId":"receta_medicamento_texto","key":"Enter","pressMs":30},
         {"type":"event","fieldId":"receta_fila_primera","eventName":"dblclick"},
