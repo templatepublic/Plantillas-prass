@@ -11,7 +11,7 @@ Para usar una plantilla basta con descargarla y seleccionar desde la aplicación
 
 **[⬇️ Clic aquí para descargar las plantillas](https://github.com/templatepublic/Plantillas-prass/archive/refs/heads/main.zip)**. Se debe descomprimir el archivo.
 
-**[⬇️ Clic aquí para descargar la extensión](https://chromewebstore.google.com/detail/hkpcecjjonmjhpkmiclondalbgdpcdmm?utm_source=item-share-cp)**. Se debe crear cuenta y suscribirse para usar
+**[⬇️ Clic aquí para descargar la extensión](https://chromewebstore.google.com/detail/hkpcecjjonmjhpkmiclondalbgdpcdmm?utm_source=item-share-cp)**. Se debe crear cuenta y pagar la suscripcion para usar
 
 - Al usar las plantillas aceptas los terminos de [LICENCIA](./LICENSE.txt) (clic para ver los términos completos)
 
