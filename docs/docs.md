@@ -1,8 +1,8 @@
 
 # DOCUMENTACION
 
-## reglas de templates, plantillas
-Los steps deben estar en una linea, para permitir buena lectura de los mismos
+## reglas para creacion de templates, plantillas forzadas
+Los steps deben ocupar una linea por step, siempre, esto permite buena lectura de los mismos
 Tiene ciertos selectores y campos de texto base que deben usar tilde tal cual, cambiarlos podria dejar de funcionar las plantillas
 
 ## maps.json 
@@ -15,7 +15,7 @@ Nombre de la plantilla
 
 ## Readme contiene las plantillas pendientes a desarrollo
 
-## AdultoSano.json y ResfriadoComunAdulto.json son templates base indican como rellenar los campos
+## AdultoSano.json y las plantillas de acciones especificas indican llenado apropiado de templates
 
 ## Tipo de Atención
 Intramural
@@ -46,7 +46,7 @@ ACIDO ACETIL SALICILICO - SOLIDO ORAL - 100
 ACIDO ACETIL SALICILICO - SOLIDO ORAL - 500
 NITROFURANTOINA - SOLIDO ORAL - 100
 FOSFOMICINA - SOLIDO ORAL - 500 mg
-HIERRO POLIMALTOSADO - SOLIDO ORAL - 100 mg
+HIERRO POLIMALTOSADO - SOLIDO ORAL - 100
 ALBENDAZOL - SOLIDO ORAL - 400 mg
 TINIDAZOL - SOLIDO ORAL - 1000 mg
 OMEPRAZOL - SOLIDO ORAL - 20 mg
@@ -78,8 +78,9 @@ INSULINA HUMANA (ACCION RAPIDA) - LIQUIDO PARENTERAL - 100
 FERROSO SULFATO - SOLIDO ORAL - 50
 FERROSO SULFATO - LIQUIDO ORAL - 25
 
-LOSARTAN - SOLIDO ORAL - 100 mg 
+LOSARTAN - SOLIDO ORAL - 100
 LOSARTAN - SOLIDO ORAL - 50
+
 FUROSEMIDA - SOLIDO ORAL - 40 mg
 ESPIRONOLACTONA - SOLIDO ORAL - 25
 ESPIRONOLACTONA - SOLIDO ORAL - 100
@@ -191,3 +192,41 @@ Z001
 Menores a 5 años: clic en panel diagnostico aparece pestaña, se debe marcar control_rutina_si y control_rutina_guardar, no se coloca cie 10 Z001, sistema ya rellena automaticamente, condicion de diagnostico no se llena, cronologia se llena como subsecuente, primera solo es si es Recien nacido luego  se confirma diagnostico
 
 5-9 años: usar Z002, se debe rellenar normal.
+
+### Control Embarazo
+
+Preconcepcional, seleccionar mappings comunes, adulto sano: alimentacion, higiene, actividad fisica.
+
+Para Gestante, seleccionar mappings de  3 recomendaciones de gestante: alimentacion, higiene, educacion lactancia
+
+Para Mujer postparto o Madre en Periodo de Lactancia, seleccionar mappings de 3 recomendaciones de madre en periodo de lactancia: lactancia exclusiva, higiene, actividad 30 min
+
+#### Cie 10 para primer control embarazo
+
+Z720 
+Z721 
+Z722 
+Z723 
+Z724 
+Z725 
+
+
+### Cie 10 Gestante siempre
+Z348 
+Z713
+### Cie 10 Madre periodo lactancia
+Z391
+
+#### Cie 10 Gestante solo en periodos que se envia examenes
+Z113 
+Z118
+Z130 
+Z131 
+Z132 
+
+Z360
+Z361
+Z362
+Z363
+Z364
+Z368
