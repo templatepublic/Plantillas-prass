@@ -7,11 +7,11 @@ Estas plantillas funcionan con la extensión genérica de autollenado **[Rey Aut
 disponible en Chrome Web Store.
 La extensión es **genérica** y funciona en cualquier página web (Google Docs, formularios en línea, sistemas médicos, etc.).
 
-Para usar una plantilla basta con descargarla y seleccionar desde la aplicación
+Para usar una plantilla se debe descargar el paquete de plantillas y la extension (aplicacion que las ejecuta) en los siguientes enlaces:
 
-**[⬇️ Clic aquí para descargar las plantillas](https://github.com/templatepublic/Plantillas-prass/archive/refs/heads/main.zip)**. Se debe descomprimir el archivo.
+**[⬇️ Clic aquí para descargar las plantillas](https://github.com/templatepublic/Plantillas-prass/archive/refs/heads/main.zip)**. Se debe descomprimir el archivo. (Se recomienda constantemente descargar las plantillas, ya que estan en constante actualización)
 
-**[⬇️ Clic aquí para descargar la extensión](https://chromewebstore.google.com/detail/hkpcecjjonmjhpkmiclondalbgdpcdmm?utm_source=item-share-cp)**. Se debe crear cuenta y pagar la suscripcion para usar
+**[⬇️ Clic aquí para descargar la extensión](https://chromewebstore.google.com/detail/hkpcecjjonmjhpkmiclondalbgdpcdmm?utm_source=item-share-cp)**. Se debe crear cuenta y pagar la suscripcion para que se habilite su uso
 
 - Al usar las plantillas aceptas los terminos de [LICENCIA](./LICENSE.txt) (clic para ver los términos completos)
 
