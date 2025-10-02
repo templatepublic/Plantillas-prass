@@ -81,7 +81,6 @@
       "rec_madre_periodo_lactancia_salud_mental_alcohol": "#checkbox_6764",
       "rec_madre_periodo_lactancia_salud_mental_vinculos": "#checkbox_6765",
       "rec_madre_periodo_lactancia_prevencion_ETS": "#checkbox_6766",
-      
       "rec_higiene_menos_6_meses": "#checkbox_6767",
       "rec_lactancia_menos_6_meses": "#checkbox_6768",
       "rec_higiene_6_24_meses": "#checkbox_6769",
@@ -92,7 +91,6 @@
       "rec_salud_mental_sueno_24_59_meses": "#checkbox_6774",
       "rec_cepillado_dental_24_59_meses": "#checkbox_6775",
       "rec_higiene_24_59_meses": "#checkbox_6776",
-
       "rec_alimentacion": "#checkbox_6777",
       "rec_act_fisica": "#checkbox_6778",
       "rec_higiene": "#checkbox_6779",
@@ -100,7 +98,6 @@
       "rec_salud_mental": "#checkbox_6781",
       "rec_salud_oral": "#checkbox_6782",
       "rec_salud_sexual": "#checkbox_6783",
-
       "rec_planificacion": "#checkbox_6799",
       "confirmar_tnf": "#tab-tra-no-farmacologico button[onclick*='savetratamientonof']",
       "confirmar_diagnostico": "#button_diagnosticos",
