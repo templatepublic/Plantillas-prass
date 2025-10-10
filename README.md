@@ -5,7 +5,7 @@
 
 Estas plantillas funcionan con la extensión genérica de autollenado **[Rey Autofill Assistant](https://chromewebstore.google.com/detail/hkpcecjjonmjhpkmiclondalbgdpcdmm?utm_source=item-share-cp)**, 
 disponible en Chrome Web Store.
-La extensión es **genérica** y funciona en cualquier página web (Google Docs, formularios en línea, sistemas médicos, etc.).
+La extensión es **genérica** y funciona en cualquier página web (Google Docs, formularios en línea, sistemas médicos, etc.). Se debe registrar una cuenta y pagar la suscripcion de uso del app para que se habilite.
 
 Para usar una plantilla se debe descargar el paquete de plantillas y la extension (aplicacion que las ejecuta) en los siguientes enlaces:
 
