@@ -6,15 +6,6 @@
       "stepDelay": 750,
       "steps": 
       [
-          {"type": "config", "stepDelay": 1000},
-        {"type": "field", "fieldId": "no_aplica", "value": true},
-        {"type": "field", "fieldId": "tipoatencion", "valueText": "Intramural","editable":"tipo_de_atencion","textlist":"tipoatencion"},
-        {"type": "field", "fieldId": "lugaratencion", "valueText": "Establecimiento de Salud","editable":"lugar_de_atencion","textlist":"lugaratencion"},
-        {"type": "click", "fieldId": "panel_motivo"},
-        {"type": "click", "fieldId": "panel_revision_organos"},
-        {"type": "click", "fieldId": "revision_sin_patologia"},
-        {"type": "click", "fieldId": "panel_diagnostico", "hard":true},
-        {"type": "click", "fieldId": "panel_tratamiento", "hard":true}
 
       ]
     }
