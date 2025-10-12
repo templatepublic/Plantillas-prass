@@ -6,11 +6,21 @@
       "stepDelay": 750,
       "steps": 
       [
-        
+          {"type": "config", "stepDelay": 1000},
+        {"type": "field", "fieldId": "no_aplica", "value": true},
+        {"type": "field", "fieldId": "tipoatencion", "valueText": "Intramural","editable":"tipo_de_atencion","textlist":"tipoatencion"},
+        {"type": "field", "fieldId": "lugaratencion", "valueText": "Establecimiento de Salud","editable":"lugar_de_atencion","textlist":"lugaratencion"},
+        {"type": "click", "fieldId": "panel_motivo"},
+        {"type": "click", "fieldId": "panel_revision_organos"},
+        {"type": "click", "fieldId": "revision_sin_patologia"},
+        {"type": "click", "fieldId": "panel_diagnostico", "hard":true},
+        {"type": "click", "fieldId": "panel_tratamiento", "hard":true}
 
       ]
     }
   ],
+
+  "variables": ["CIE10","tension_sistolica","tension_diastolica","temperatura","frecuencia_cardiaca","frecuencia_respiratoria","saturacion_oxigeno","peso","talla","perimetro_abdominal","glucosa","hemoglobina","riesgo_cardiovascular"],
   "textlist": {
          "tipoatencion": ["Intramural","Extramural"],
          "lugaratencion": ["Establecimiento de Salud","Triaje respiratorio","Comunidad","Centros Educativos","Domicilio","Albergues creados por desastres","Albergues para refugiados","Albergues","Centros de Desarrollo Infantil - CDI","Creciendo con nuestros hijos CNH","Calle","Centros de educación inicial","Escuelas, interculturales familiares comunitarias","Emergencia ambulatoria","Centro de rehabilitación / carcelario","Grupos laborales (fábricas y empresas)","Centros de recuperación de adicciones","Atención por medios telemáticos","Centro de Atención Temporal","Centro Gerontológico","Seguimiento en domicilio COVID-19","Seguimiento telefónico COVID-19","Otros","Brigada Externa"],
@@ -30,7 +40,7 @@
       "panel_revision_organos": "#btnrevision_organos",
       "panel_examen_fisico": "#btnexamen_fisico",
       "panel_diagnostico": "#btndiagnostico",
-      "panel_tratamiento:": "#plantratamiento",
+      "panel_tratamiento": "#plantratamiento",
       "panel_evolucion": "#btnevolucion",
       "tipoatencion": "#intraextramural_cttipoatencion",
       "lugaratencion": "#intraextramural_ctlugaratencion",
@@ -50,7 +60,7 @@
       "signos_hemoglobina": "#signo_1157",
       "signos_riesgo_cardiovascular": "#signo_6093",
       "signos_confirmar": "#btn_confirmar_signosvitales",
-      "revision_sin_patologia": "#input.sp_all",
+      "revision_sin_patologia": "#revisionOrganos input.sp_all",
       "tipo_examen_fisico": "#tipoExamenFisico",
       "cabeza": "#region_403",
       "cuello": "#region_404",
@@ -67,6 +77,7 @@
       "cie_codigo_texto": "#diagnosticoatencion_codigocie",
       "diagnostico_condicion": "#diagnosticoatencion_ctcondiciondiagnostico",
       "diagnostico_cronologia": "#diagnosticoatencion_ctcronologiadiagnostico",
+      "tratamiento_aceptar_antecedentes": "#acceptButton",
       "tab_receta": "a[data-toggle='tab'][href='#tab-receta']",
       "tab_orden": "a[data-toggle='tab'][href='#tab-ordenmedica']",
       "tab_tnf": "a[data-toggle='tab'][href='#tab-tra-no-farmacologico']",

@@ -6,6 +6,7 @@
       "stepDelay": 500,
       "steps": [
         {"type": "click", "selector": "#plantratamiento", "hard": true},
+        {"type": "click", "selector": "#acceptButton", "hard": true},
         {"type": "click", "fieldId": "tab_receta"},
         {"type": "field", "fieldId": "receta_estado_paciente", "valueText": "Crónico"},
         {"type": "field", "fieldId": "receta_especialidad_medica", "valueText": "Medicina General"},
