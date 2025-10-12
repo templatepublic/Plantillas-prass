@@ -5,28 +5,18 @@
 Los steps deben ocupar una linea por step, siempre, esto permite buena lectura de los mismos
 Tiene ciertos selectores y campos de texto base que deben usar tilde tal cual, cambiarlos podria dejar de funcionar las plantillas
 
-## maps.json 
-contiene los selector mappings, debe estar copiado en todas las plantillas de este repositorio
-
+## empty.json 
+contiene los selector mappings y text list, estos deben copiarse en todas las plantillas de este repo
 
 ## label
 Nombre de la plantilla
-
 
 ## Readme contiene las plantillas pendientes a desarrollo
 
 ## AdultoSano.json y las plantillas de acciones especificas indican llenado apropiado de templates
 
-## Tipo de Atención
-Intramural
-Extramural
-
 ## Lugar de Atención
 ### Establecimiento de Salud siempre va forzado con Intramural
-Establecimiento de Salud
-Domicilio
-Comunidad
-Otros
 
 ## Texto Medicamentos receta
 
@@ -152,10 +142,6 @@ TÓPICO
 Agudo
 Crónico
 
-## Receta especialidad
-Medicina General
-Odontología
-
 ## CIE 10 (algunos ejemplos)
 
 J00X
@@ -178,7 +164,6 @@ Z316
 
 
 ## CIE 10 forzados
-
 
 ### Adolecente 10-19 años
 Z003

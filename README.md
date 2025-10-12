@@ -1,19 +1,23 @@
 # Plantillas
 ---
 
-## 🟢 Descargar y usar plantillas 🟢
+## 🟢 Instalar aplicacion y usar archivos de autorelleno 🟢
 
-Estas plantillas funcionan con la extensión genérica de autollenado **[Rey Autofill Assistant](https://chromewebstore.google.com/detail/hkpcecjjonmjhpkmiclondalbgdpcdmm?utm_source=item-share-cp)**, 
-disponible en Chrome Web Store.
-La extensión es **genérica** y funciona en cualquier página web (Google Docs, formularios en línea, sistemas médicos, etc.). Se debe registrar una cuenta y pagar la suscripcion de uso del app para que se habilite.
+**[Rey Autofill Assistant](https://chromewebstore.google.com/detail/hkpcecjjonmjhpkmiclondalbgdpcdmm?utm_source=item-share-cp)**
+**[⬇️ Clic aquí para descargar la aplicacion](https://chromewebstore.google.com/detail/hkpcecjjonmjhpkmiclondalbgdpcdmm?utm_source=item-share-cp)**
+Esta aplicación es una extensión de autorelleno **genérica** (autorelleno de cualquier pagina web) se instala desde la tienda de extensiones de google (Google Chrome Web Store)
 
-Para usar una plantilla se debe descargar el paquete de plantillas y la extension (aplicacion que las ejecuta) en los siguientes enlaces:
+Una vez instalado el app, se debe descargar los archivos plantilla.
+**[⬇️ Clic aquí para descargar las plantillas](https://github.com/templatepublic/Plantillas-prass/archive/refs/heads/main.zip)**. 
+-Se debe descomprimir el archivo.
+-Al usar estos archivos plantilla digital aceptas los terminos de uso de licencia [clic para ver los términos completos](./LICENSE.txt)
 
-**[⬇️ Clic aquí para descargar las plantillas](https://github.com/templatepublic/Plantillas-prass/archive/refs/heads/main.zip)**. Se debe descomprimir el archivo. (Se recomienda constantemente descargar las plantillas, ya que estan en constante actualización)
-
-**[⬇️ Clic aquí para descargar la extensión](https://chromewebstore.google.com/detail/hkpcecjjonmjhpkmiclondalbgdpcdmm?utm_source=item-share-cp)**. Se debe crear cuenta y pagar la suscripcion para que se habilite su uso
-
-- Al usar las plantillas aceptas los terminos de [LICENCIA](./LICENSE.txt) (clic para ver los términos completos)
+Como usar el app
+1. Instalar el app y descargar archivos de plantilla
+2. Abrir extensión desde el navegador
+3. Iniciar sesión o Crear cuenta, registro. (la app requiere una cuenta)
+4. Seleccionar archivo plantilla
+5. Aplicar
 
 ⚙️ **Las plantillas se encuentran en constante actualización. Se recomienda descargarlas desde este repositorio para su correcto funcionamiento**
 
@@ -48,13 +52,13 @@ Problemas comunes:
 ---
 
 ## 📜Plantillas en Desarrollo
-Todas las plantillas son experimentales, a pesar de marcar como finalizadas pueden estar incompletas
+Todas las plantillas son experimentales, a pesar de marcar como finalizadas pueden estar incompletas o inconsistentes
 ### [x] Hecho
 ### [ ] Pendiente
 
 ## Plantillas Odontologia
-- [X] Examen Odontologico
-- [ ] Examen Odontológico Extramural
+- [x] Examen Odontologico
+- [x] Examen Odontológico Extramural
 
 ### Odontología Niño
 - [ ] Examen Odontologico Niño
@@ -105,7 +109,8 @@ Plantillas especificas
 - [x] Adolescente 10-19 años
 
 ### Adulto
-- [X] Adulto Sano 
+- [x] Adulto Sano 
+- [x] Extension de Certificado Medico
 - [x] Adulto Mayor Sano
 
 ### Planificacion familiar
@@ -113,22 +118,22 @@ Plantillas especificas
 
 ### Control prenatal
 
-- [X] Primer control prenatal: antes de la semana 12.
-- [X] Segundo control prenatal: entre las semanas 13 y 20.
-- [X] Tercer control prenatal: entre las semanas 21 y 25.
-- [X] Cuarto control prenatal: entre las semanas 26 y 30.
-- [X] Quinto control prenatal: entre las semanas 31 y 34.
-- [X] Sexto control prenatal: entre las semanas 35 y 36.
-- [X] Septimo control prenatal: semana 37.
-- [X] Octavo control prenatal: semana 38.
-- [X] Noveno control prenatal: semana 39.
-- [X] Decimo control prenatal: semana 40 (o hasta el parto).
+- [x] Primer control prenatal: antes de la semana 12.
+- [x] Segundo control prenatal: entre las semanas 13 y 20.
+- [x] Tercer control prenatal: entre las semanas 21 y 25.
+- [x] Cuarto control prenatal: entre las semanas 26 y 30.
+- [x] Quinto control prenatal: entre las semanas 31 y 34.
+- [x] Sexto control prenatal: entre las semanas 35 y 36.
+- [x] Septimo control prenatal: semana 37.
+- [x] Octavo control prenatal: semana 38.
+- [x] Noveno control prenatal: semana 39.
+- [x] Decimo control prenatal: semana 40 (o hasta el parto).
 
 ### Control Posparto
-- [X] Primeras semanas postparto 
-- [X] 12 semanas postparto
+- [x] Primeras semanas postparto 
+- [x] 12 semanas postparto
 ### Lactancia
-- [X] Madre en periodo de lactancia 
+- [x] Madre en periodo de lactancia 
 
 ### Control
 - [ ] Control tensión arterial
@@ -308,7 +313,7 @@ Plantillas especificas
 
 ## 📬 Contribuir con plantillas
 
-Si tienes una plantilla JSON que quieras compartir, o quieres sugerir plantillas para desarrollo
+Si tienes una plantilla JSON que quieras compartir a este repositorio, o quieres sugerir plantillas para desarrollo
 puedes enviarla al correo:
 
 📧 **template.public@gmail.com**
@@ -319,7 +324,7 @@ Nos encargaremos de revisarla y agregarla al repositorio.
 
 ---
 
-## 📜 Licencia
+## 📜 Resumen Licencia
 
 Este repositorio distribuye sus plantillas bajo la  
 [Licencia de Plantillas Comunitarias v1.0](./LICENSE.txt).

@@ -48,7 +48,7 @@
         {"type": "click", "fieldId": "radio_indicaciones", "delay": 1500},
         {"type": "click", "fieldId": "indicaciones_boton"},
         {"type": "click", "fieldId": "generales_plan_terapeutico_boton"},
-        {"type": "field", "fieldId": "indicaciones_no_farmacologicas_texto", "valueText": "Se realiza charla de uso de hilo dental, enjuague bucal, técnica de cepillado de Bass modificada, se da instrucciones de dieta no cariogénica.", "uppercase": true, "editable": "indicaciones_no_farmacologicas"},
+        {"type": "field", "fieldId": "indicaciones_no_farmacologicas_texto", "valueText": "Se realiza charla de uso de hilo dental, enjuague bucal, técnica de cepillado, se da instrucciones de dieta no cariogénica.", "uppercase": true, "editable": "indicaciones_no_farmacologicas"},
         {"type": "click", "fieldId": "confirmar_tnf"},
         {"type": "click", "fieldId": "radio_recomendaciones", "delay": 1500},
         {"type": "config", "stepDelay": 500},
