@@ -29,6 +29,19 @@
       ]
     }
   ],
+
+  "variables": ["CIE10","tension_sistolica","tension_diastolica","temperatura","frecuencia_cardiaca","frecuencia_respiratoria","saturacion_oxigeno","peso","talla","perimetro_abdominal","glucosa","hemoglobina","riesgo_cardiovascular"],
+  "textlist": {
+         "tipoatencion": ["Intramural","Extramural"],
+         "lugaratencion": ["Establecimiento de Salud","Triaje respiratorio","Comunidad","Centros Educativos","Domicilio","Albergues creados por desastres","Albergues para refugiados","Albergues","Centros de Desarrollo Infantil - CDI","Creciendo con nuestros hijos CNH","Calle","Centros de educación inicial","Escuelas, interculturales familiares comunitarias","Emergencia ambulatoria","Centro de rehabilitación / carcelario","Grupos laborales (fábricas y empresas)","Centros de recuperación de adicciones","Atención por medios telemáticos","Centro de Atención Temporal","Centro Gerontológico","Seguimiento en domicilio COVID-19","Seguimiento telefónico COVID-19","Otros","Brigada Externa"],
+         "diagnostico_condicion": ["Presuntivo","Definitivo Inicial","Definitivo Inicial Confirmado por Laboratorio","Definitivo Control"],
+         "diagnostico_cronologia": ["Primera","Subsecuente"],
+         "receta_medida": ["Microgramo","Miligramo","Gramo","Kilogramo","Unidades Internacionales","Microlitro","Mililitro","Litro","Ingreso Manual","Porcentaje","Unidades","Miliequivalentes"],
+         "receta_frecuencia": ["Cada 4 Horas","Cada 6 Horas","Cada 8 Horas","Cada 12 Horas","Cada 24 Horas","En Este Momento","Por Razones Necesarias","Otra"],
+         "receta_via_administracion": ["ORAL","INHALATORIA","PARENTERAL","INTRATRAQUEAL","RECTAL","VAGINAL","INTRAUTERINA","INTRAVESICAL","OCULAR","ORAL/VAGINAL","OTRO","PARENETERAL (INTRAVENOSA)","PARENTERAL (INTRAMUSCULAR)","PARENTERAL (INTRAVENOSO/INTRAMUSCULAR)","PARENTERAL (INTRAVENOSO/INTRAMUSCULAR/SUBCUTÁNEO)","PARENTERAL (SUBCUTÁNEA)","TÓPICO"],
+         "receta_estado_paciente": ["Agudo","Crónico"],
+         "especialidad_medica": ["Alergología","Anestesiología","Cardiología Hemodinamista","Cardiología","Cirugía Cardiovascular","Cirugía digestiva","Cirugía general","Cirugía Oncológica","Cirugía plástica","Cirugía torácica","Cirugía vascular","Coloproctología","Cuidados Intensivos","Cuidados Paliativos","Dermatología","Diabetología","Emergencia","Endocrinología","Enfermería","Fisiatría","Gastroenterología","Genética clínica","Geriatría","Ginecología","Hematología","Hemato-oncología pediátrica","Imagen","Infectología","Internación","Laboratorio clínico","Medicina Familiar y Comunitaria","Medicina General","Medicina Interna","Nefrología","Neonatología","Neumología","Neurocirugía","Neurología","Nutrición médica","Obstetricia","Odontología","Odontopediatría","Oftalmología","Oncología","Otorrinolaringología","Pediatría","Psicología","Psiquiatría","Reumatología","Salud mental","Traumatología","Urología"]
+        },
   "selectorMapping": {
     "common": {
       "panel_lugar_atencion": "#btnIntraextramural",
@@ -37,7 +50,7 @@
       "panel_revision_organos": "#btnrevision_organos",
       "panel_examen_fisico": "#btnexamen_fisico",
       "panel_diagnostico": "#btndiagnostico",
-      "panel_tratamiento:": "#plantratamiento",
+      "panel_tratamiento": "#plantratamiento",
       "panel_evolucion": "#btnevolucion",
       "tipoatencion": "#intraextramural_cttipoatencion",
       "lugaratencion": "#intraextramural_ctlugaratencion",
@@ -57,7 +70,7 @@
       "signos_hemoglobina": "#signo_1157",
       "signos_riesgo_cardiovascular": "#signo_6093",
       "signos_confirmar": "#btn_confirmar_signosvitales",
-      "revision_sin_patologia": "#input.sp_all",
+      "revision_sin_patologia": "#revisionOrganos input.sp_all",
       "tipo_examen_fisico": "#tipoExamenFisico",
       "cabeza": "#region_403",
       "cuello": "#region_404",
@@ -74,6 +87,7 @@
       "cie_codigo_texto": "#diagnosticoatencion_codigocie",
       "diagnostico_condicion": "#diagnosticoatencion_ctcondiciondiagnostico",
       "diagnostico_cronologia": "#diagnosticoatencion_ctcronologiadiagnostico",
+      "tratamiento_aceptar_antecedentes": "#acceptButton",
       "tab_receta": "a[data-toggle='tab'][href='#tab-receta']",
       "tab_orden": "a[data-toggle='tab'][href='#tab-ordenmedica']",
       "tab_tnf": "a[data-toggle='tab'][href='#tab-tra-no-farmacologico']",
