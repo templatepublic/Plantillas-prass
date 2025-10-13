@@ -3,9 +3,10 @@
     {
       "id": "default",
       "label": "Administracion Completa - Hierro + Acido Folico + Calcio",
-      "stepDelay": 500,
+      "stepDelay": 750,
       "steps": [
-        {"type": "click", "selector": "#plantratamiento", "hard": true},
+        {"type": "click", "fieldId": "panel_tratamiento", "hard": true},
+        {"type": "click", "fieldId": "tratamiento_aceptar_antecedentes", "hard": true},
         {"type": "click", "fieldId": "tab_receta"},
         {"type": "field", "fieldId": "receta_estado_paciente", "valueText": "Crónico"},
         {"type": "field", "fieldId": "receta_especialidad_medica", "valueText": "Medicina General"},
@@ -24,7 +25,8 @@
         {"type": "field", "fieldId": "receta_cantidad", "clear": true, "valueText": "30"},
         {"type": "click", "fieldId": "confirmar_receta"},
         {"type": "click", "fieldId": "confirmar_receta_final"},
-        {"type": "click", "selector": "#plantratamiento", "hard": true},
+        {"type": "click", "fieldId": "panel_tratamiento", "hard": true},
+        {"type": "click", "fieldId": "tratamiento_aceptar_antecedentes", "hard": true},
         {"type": "click", "fieldId": "tab_receta"},
         {"type": "field", "fieldId": "receta_estado_paciente", "valueText": "Crónico"},
         {"type": "field", "fieldId": "receta_especialidad_medica", "valueText": "Medicina General"},

@@ -3,9 +3,10 @@
     {
       "id": "default",
       "label": "Hierro Anemia Leve Ferroso Sulfato 50-100mg",
-      "stepDelay": 500,
+      "stepDelay": 750,
       "steps": [
-        {"type": "click", "selector": "#plantratamiento", "hard": true},
+        {"type": "click", "fieldId": "panel_tratamiento", "hard": true},
+        {"type": "click", "fieldId": "tratamiento_aceptar_antecedentes", "hard": true},
         {"type": "click", "fieldId": "tab_receta"},
         {"type": "field", "fieldId": "receta_estado_paciente", "valueText": "Crónico"},
         {"type": "field", "fieldId": "receta_especialidad_medica", "valueText": "Medicina General"},

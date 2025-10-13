@@ -11,6 +11,8 @@ contiene los selector mappings y text list, estos deben copiarse en todas las pl
 ## label
 Nombre de la plantilla
 
+## cambio de velocidad
+{"type": "config", "stepDelay": 1000}
 ## Readme contiene las plantillas pendientes a desarrollo
 
 ## AdultoSano.json y las plantillas de acciones especificas indican llenado apropiado de templates

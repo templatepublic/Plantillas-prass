@@ -3,9 +3,8 @@
     {
       "id": "default",
       "label": "Adulto Sano",
-      "stepDelay": 750,
-      "steps": [
-        {"type": "config", "stepDelay": 750},
+      "stepDelay": 1000,
+      "steps": [ 
         {"type": "field", "fieldId": "no_aplica", "value": true},
         {"type": "field", "fieldId": "tipoatencion", "valueText": "Intramural","editable":"tipo_de_atencion","textlist":"tipoatencion"},
         {"type": "field", "fieldId": "lugaratencion", "valueText": "Establecimiento de Salud","editable":"lugar_de_atencion","textlist":"lugaratencion"},
@@ -61,7 +60,7 @@
         {"type": "click", "fieldId": "confirmar_examen_fisico"},
         {"type": "click", "fieldId": "panel_diagnostico"},
         {"type": "click", "fieldId": "cancelar_cie", "hard": true},
-        {"type": "field", "fieldId": "cie_codigo_texto", "clear": true, "valueText": "Z000","variable":"CIE10", "uppercase": true, "editable": "Diagnostico CIE10"},
+        {"type": "field", "fieldId": "cie_codigo_texto", "clear": true, "valueText": "Z000", "uppercase": true, "editable": "Diagnostico CIE10"},
         {"type": "click", "fieldId": "cie_codigo_texto"},
         {"type": "key", "fieldId": "cie_codigo_texto", "key": "Enter"},
         {"type": "key", "fieldId": "cie_codigo_texto", "key": "Enter"},

@@ -3,9 +3,8 @@
     {
       "id": "default",
       "label": "ExamenFisicoAdultoSano",
-      "stepDelay": 500,
+      "stepDelay": 1000,
       "steps": [
-        {"type": "config", "stepDelay": 500},
         {"type": "click", "fieldId": "panel_examen_fisico"},
         {"type": "field", "fieldId": "tipo_examen_fisico", "valueText": "EXAMEN FÍSICO FRONTAL"},
         {"type": "click", "fieldId": "cabeza"},

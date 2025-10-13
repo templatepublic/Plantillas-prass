@@ -3,20 +3,20 @@
     {
       "id": "default",
       "label": "Niño Sano 6-9 Años",
-      "stepDelay": 500,
+      "stepDelay": 1000,
       "steps": [
-        {"type": "config", "stepDelay": 500},
+        
         {"type": "field", "fieldId": "no_aplica", "value": true},
         {"type": "field", "fieldId": "tipoatencion", "valueText": "Intramural"},
         {"type": "field", "fieldId": "lugaratencion", "valueText": "Establecimiento de Salud"},
-        {"type": "click", "fieldId": "panel_motivo", "delay": 500},
+        {"type": "click", "fieldId": "panel_motivo"},
         {"type": "field", "fieldId": "motivo", "clear": true, "valueText": "Control preventivo de Niño Sano 6-9 Años.", "uppercase": true, "editable": "motivo_de_atencion"},
         {"type": "click", "fieldId": "enfermedad_actual", "hard": true},
         {"type": "field", "fieldId": "enfermedad_actual", "clear": true, "valueText": "Paciente asintomático que acude a consulta preventiva acompañado; sin episodios recientes de enfermedad, con alimentación, sueño y desarrollo referidos como adecuados para la edad.", "uppercase": true, "editable": "enfermedad_actual"},
         {"type": "click", "fieldId": "motivo", "hard": true},
-        {"type": "click", "fieldId": "panel_revision_organos", "delay": 750},
-        {"type": "click", "selector": "input.sp_all"},
-        {"type": "config", "stepDelay": 500},
+        {"type": "click", "fieldId": "panel_revision_organos"},
+        {"type": "click", "fieldId": "revision_sin_patologia"},
+        
         {"type": "click", "fieldId": "panel_examen_fisico"},
         {"type": "field", "fieldId": "tipo_examen_fisico", "valueText": "EXAMEN FÍSICO FRONTAL"},
         {"type": "click", "fieldId": "cabeza"},
@@ -60,14 +60,14 @@
         {"type": "field", "fieldId": "texto_examen_fisico", "clear": true, "valueText": "Lenguaje claro, juego simbólico acorde, reflejos y tono normales.", "uppercase": true, "editable": "examen_neurologico"},
         {"type": "field", "fieldId": "check_examen_fisico_sinpatologia", "value": true},
         {"type": "click", "fieldId": "confirmar_examen_fisico"},
-        {"type": "config", "stepDelay": 500},
-        {"type": "click", "fieldId": "panel_diagnostico", "delay": 500},
-        {"type": "config", "stepDelay": 500},
+        
+        {"type": "click", "fieldId": "panel_diagnostico"},
+        
         {"type": "click", "fieldId": "cancelar_cie", "hard": true},
         {"type": "field", "fieldId": "cie_codigo_texto", "clear": true, "valueText": "Z002"},
         {"type": "click", "fieldId": "cie_codigo_texto"},
-        {"type": "key", "fieldId": "cie_codigo_texto", "key": "Enter", "delay": 100},
-        {"type": "key", "fieldId": "cie_codigo_texto", "key": "Enter", "delay": 100},
+        {"type": "key", "fieldId": "cie_codigo_texto", "key": "Enter", "delay": 200},
+        {"type": "key", "fieldId": "cie_codigo_texto", "key": "Enter", "delay": 200},
         {"type": "field", "fieldId": "diagnostico_condicion", "clear": true, "valueText": "Proceso Normal"},
         {"type": "field", "fieldId": "diagnostico_cronologia", "clear": true, "valueText": "Primera"},
         {"type": "click", "fieldId": "confirmar_diagnostico"},
@@ -79,7 +79,7 @@
         {"type": "field", "fieldId": "indicaciones_no_farmacologicas_texto", "valueText": "Reforzar alimentación equilibrada acorde a la edad, rutinas de sueño seguras, actividades de estimulación y vigilancia de signos de alarma.", "uppercase": true, "editable": "indicaciones_no_farmacologicas"},
         {"type": "click", "fieldId": "confirmar_tnf"},
         {"type": "click", "fieldId": "radio_recomendaciones", "delay": 1500},
-        {"type": "config", "stepDelay": 500},
+        
         {"type": "click", "fieldId": "rec_alimentacion", "hard": true},
         {"type": "click", "fieldId": "rec_act_fisica", "hard": true},
         {"type": "click", "fieldId": "rec_higiene", "hard": true},
@@ -87,8 +87,8 @@
         {"type": "field", "fieldId": "rec_act_fisica", "value": true},
         {"type": "field", "fieldId": "rec_higiene", "value": true},
         {"type": "click", "fieldId": "confirmar_tnf"},
-        {"type": "config", "stepDelay": 500},
-        {"type": "click", "fieldId": "panel_evolucion", "delay": 500},
+        
+        {"type": "click", "fieldId": "panel_evolucion"},
         {"type": "field", "fieldId": "evolucion_texto", "clear": true, "valueText": "Control documentado sin hallazgos patológicos. Se entregan recomendaciones preventivas y se agenda el próximo seguimiento.", "uppercase": true, "editable": "evolucion"},
         {"type": "click", "fieldId": "panel_motivo"},
         {"type": "click", "fieldId": "panel_evolucion"}
