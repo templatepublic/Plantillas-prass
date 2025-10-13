@@ -63,7 +63,7 @@
         
         {"type": "click", "fieldId": "panel_diagnostico"},
         {"type": "click", "fieldId": "cancelar_cie", "hard": true},
-        {"type": "field", "fieldId": "cie_codigo_texto", "clear": true, "valueText": "Z300"},
+        {"type": "field", "fieldId": "cie_codigo_texto", "clear": true, "valueText": "Z316"},
         {"type": "click", "fieldId": "cie_codigo_texto"},
         {"type": "key", "fieldId": "cie_codigo_texto", "key": "Enter", "delay": 200},
         {"type": "key", "fieldId": "cie_codigo_texto", "key": "Enter", "delay": 200},
@@ -72,6 +72,7 @@
         {"type": "click", "fieldId": "confirmar_diagnostico"},
         
         {"type": "click", "fieldId": "panel_tratamiento", "hard": true},
+        {"type": "click", "fieldId": "tratamiento_aceptar_antecedentes", "hard": true},
         {"type": "click", "fieldId": "tab_receta"},
         {"type": "click", "fieldId": "tab_tnf", "delay": 1500},
         {"type": "click", "fieldId": "radio_indicaciones", "delay": 1500},

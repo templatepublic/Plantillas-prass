@@ -72,6 +72,7 @@
         {"type": "click", "fieldId": "confirmar_diagnostico"},
         
         {"type": "click", "fieldId": "panel_tratamiento", "hard": true},
+        {"type": "click", "fieldId": "tratamiento_aceptar_antecedentes", "hard": true},
         {"type": "click", "fieldId": "tab_receta"},
         
         {"type": "field", "fieldId": "receta_estado_paciente", "valueText": "Agudo"},

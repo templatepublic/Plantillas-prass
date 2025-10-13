@@ -72,6 +72,7 @@
         {"type": "click", "fieldId": "confirmar_diagnostico"},
         
         {"type": "click", "fieldId": "panel_tratamiento", "hard": true},
+        {"type": "click", "fieldId": "tratamiento_aceptar_antecedentes", "hard": true},
         {"type": "click", "fieldId": "tab_receta"},
         {"type": "click", "fieldId": "tab_tnf", "delay": 1500},
         {"type": "click", "fieldId": "radio_indicaciones", "delay": 1500},
