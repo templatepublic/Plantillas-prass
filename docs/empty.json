@@ -3,7 +3,7 @@
     {
       "id": "default",
       "label": "empty",
-      "stepDelay": 750,
+      "stepDelay": 1000,
       "steps": 
       [
 

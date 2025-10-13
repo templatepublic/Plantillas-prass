@@ -3,7 +3,7 @@
     {
       "id": "default",
       "label": "Control Prenatal 1 (1 semana - 12 semanas)",
-      "stepDelay": 750,
+      "stepDelay": 1000,
       "steps": [
    
         {"type": "field", "fieldId": "tipoatencion", "valueText": "Intramural"},
