@@ -144,7 +144,7 @@
     }
   ],
 
-  "variables": ["CIE10","tension_sistolica","tension_diastolica","temperatura","frecuencia_cardiaca","frecuencia_respiratoria","saturacion_oxigeno","peso","talla","perimetro_abdominal","glucosa","hemoglobina","riesgo_cardiovascular"],
+  "variables": ["CIE10","especialidad","tension_sistolica","tension_diastolica","temperatura","frecuencia_cardiaca","frecuencia_respiratoria","saturacion_oxigeno","peso","talla","perimetro_abdominal","glucosa","hemoglobina","riesgo_cardiovascular"],
   "textlist": {
          "tipoatencion": ["Intramural","Extramural"],
          "lugaratencion": ["Establecimiento de Salud","Triaje respiratorio","Comunidad","Centros Educativos","Domicilio","Albergues creados por desastres","Albergues para refugiados","Albergues","Centros de Desarrollo Infantil - CDI","Creciendo con nuestros hijos CNH","Calle","Centros de educación inicial","Escuelas, interculturales familiares comunitarias","Emergencia ambulatoria","Centro de rehabilitación / carcelario","Grupos laborales (fábricas y empresas)","Centros de recuperación de adicciones","Atención por medios telemáticos","Centro de Atención Temporal","Centro Gerontológico","Seguimiento en domicilio COVID-19","Seguimiento telefónico COVID-19","Otros","Brigada Externa"],
