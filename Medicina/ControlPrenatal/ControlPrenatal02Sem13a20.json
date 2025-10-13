@@ -7,8 +7,8 @@
       "steps": [
         
         {"type": "field", "fieldId": "no_aplica", "value": true},
-        {"type": "field", "fieldId": "tipoatencion", "valueText": "Intramural"},
-        {"type": "field", "fieldId": "lugaratencion", "valueText": "Establecimiento de Salud"},
+        {"type": "field", "fieldId": "tipoatencion", "valueText": "Intramural","editable":"tipo_de_atencion","textlist":"tipoatencion"},
+        {"type": "field", "fieldId": "lugaratencion", "valueText": "Establecimiento de Salud","editable":"lugar_de_atencion","textlist":"lugaratencion"},
         {"type": "click", "fieldId": "panel_motivo"},
         {"type": "field", "fieldId": "motivo", "clear": true, "valueText": "Control prenatal.", "uppercase": true, "editable": "motivo_de_atencion"},
         {"type": "field", "fieldId": "enfermedad_actual", "clear": true, "valueText": "Gestante acude a control; refiere movimientos fetales presentes, sin sangrado vaginal, cefalea severa ni vision borrosa. Se revisan antecedentes obstetricos, esquema de vacunas, suplementacion con acido folico, hierro y calcio, apoyo familiar y se repasa cronograma: controles mensuales hasta semana 30, quincenales hasta 36 y semanales desde 37.", "uppercase": true, "editable": "enfermedad_actual"},
@@ -63,7 +63,7 @@
         
         {"type": "click", "fieldId": "panel_diagnostico"},
         {"type": "click", "fieldId": "cancelar_cie", "hard": true},
-        {"type": "field", "fieldId": "cie_codigo_texto", "clear": true, "valueText": "Z348"},
+        {"type": "field", "fieldId": "cie_codigo_texto", "clear": true, "valueText": "Z348","editable":"cie embarazo","variable":"cie_embarazo","textlist":"cie_embarazo"},
         {"type": "click", "fieldId": "cie_codigo_texto"},
         {"type": "key", "fieldId": "cie_codigo_texto", "key": "Enter", "delay": 200},
         {"type": "key", "fieldId": "cie_codigo_texto", "key": "Enter", "delay": 200},
@@ -79,7 +79,7 @@
         {"type": "field", "fieldId": "diagnostico_cronologia", "clear": true, "valueText": "Subsecuente"},
         {"type": "click", "fieldId": "confirmar_diagnostico"},
         
-        {"type": "field", "fieldId": "cie_codigo_texto", "clear": true, "valueText": "Z362"},
+        {"type": "field", "fieldId": "cie_codigo_texto", "clear": true, "valueText": "Z363"},
         {"type": "click", "fieldId": "cie_codigo_texto"},
         {"type": "key", "fieldId": "cie_codigo_texto", "key": "Enter", "delay": 200},
         {"type": "key", "fieldId": "cie_codigo_texto", "key": "Enter", "delay": 200},
@@ -114,7 +114,7 @@
     }
   ],
 
-  "variables": ["CIE10","especialidad","tension_sistolica","tension_diastolica","temperatura","frecuencia_cardiaca","frecuencia_respiratoria","saturacion_oxigeno","peso","talla","perimetro_abdominal","glucosa","hemoglobina","riesgo_cardiovascular"],
+  "variables": ["CIE10","especialidad","cie_embarazo","tension_sistolica","tension_diastolica","temperatura","frecuencia_cardiaca","frecuencia_respiratoria","saturacion_oxigeno","peso","talla","perimetro_abdominal","glucosa","hemoglobina","riesgo_cardiovascular"],
   "textlist": {
          "tipoatencion": ["Intramural","Extramural"],
          "lugaratencion": ["Establecimiento de Salud","Triaje respiratorio","Comunidad","Centros Educativos","Domicilio","Albergues creados por desastres","Albergues para refugiados","Albergues","Centros de Desarrollo Infantil - CDI","Creciendo con nuestros hijos CNH","Calle","Centros de educación inicial","Escuelas, interculturales familiares comunitarias","Emergencia ambulatoria","Centro de rehabilitación / carcelario","Grupos laborales (fábricas y empresas)","Centros de recuperación de adicciones","Atención por medios telemáticos","Centro de Atención Temporal","Centro Gerontológico","Seguimiento en domicilio COVID-19","Seguimiento telefónico COVID-19","Otros","Brigada Externa"],
@@ -124,6 +124,7 @@
          "receta_frecuencia": ["Cada 4 Horas","Cada 6 Horas","Cada 8 Horas","Cada 12 Horas","Cada 24 Horas","En Este Momento","Por Razones Necesarias","Otra"],
          "receta_via_administracion": ["ORAL","INHALATORIA","PARENTERAL","INTRATRAQUEAL","RECTAL","VAGINAL","INTRAUTERINA","INTRAVESICAL","OCULAR","ORAL/VAGINAL","OTRO","PARENETERAL (INTRAVENOSA)","PARENTERAL (INTRAMUSCULAR)","PARENTERAL (INTRAVENOSO/INTRAMUSCULAR)","PARENTERAL (INTRAVENOSO/INTRAMUSCULAR/SUBCUTÁNEO)","PARENTERAL (SUBCUTÁNEA)","TÓPICO"],
          "receta_estado_paciente": ["Agudo","Crónico"],
+"cie_embarazo": ["Z340","Z348","Z349","Z350","Z351","Z352","Z353","Z354","Z355","Z356","Z357","Z358","Z359"],
          "especialidad_medica": ["Alergología","Anestesiología","Cardiología Hemodinamista","Cardiología","Cirugía Cardiovascular","Cirugía digestiva","Cirugía general","Cirugía Oncológica","Cirugía plástica","Cirugía torácica","Cirugía vascular","Coloproctología","Cuidados Intensivos","Cuidados Paliativos","Dermatología","Diabetología","Emergencia","Endocrinología","Enfermería","Fisiatría","Gastroenterología","Genética clínica","Geriatría","Ginecología","Hematología","Hemato-oncología pediátrica","Imagen","Infectología","Internación","Laboratorio clínico","Medicina Familiar y Comunitaria","Medicina General","Medicina Interna","Nefrología","Neonatología","Neumología","Neurocirugía","Neurología","Nutrición médica","Obstetricia","Odontología","Odontopediatría","Oftalmología","Oncología","Otorrinolaringología","Pediatría","Psicología","Psiquiatría","Reumatología","Salud mental","Traumatología","Urología"]
         },
   "selectorMapping": {
