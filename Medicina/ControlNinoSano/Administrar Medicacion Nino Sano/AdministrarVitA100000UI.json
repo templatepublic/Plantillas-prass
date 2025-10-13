@@ -9,7 +9,7 @@
         {"type": "click", "fieldId": "tratamiento_aceptar_antecedentes", "hard": true},
         {"type": "click", "fieldId": "tab_receta"},
         {"type": "field", "fieldId": "receta_estado_paciente", "valueText": "Crónico"},
-        {"type": "field", "fieldId": "receta_especialidad_medica", "valueText": "Medicina General"},
+        {"type": "field", "fieldId": "receta_especialidad_medica", "valueText": "Medicina General","editable":"Especialidad","variable":"especialidad","textlist":"especialidad_medica"},
         {"type": "field", "fieldId": "receta_diagnostico_search", "clear": true, "value": "Z001"},
         {"type": "key", "fieldId": "receta_medicamento_texto", "key": "Enter", "pressMs": 20},
         {"type": "key", "fieldId": "receta_diagnostico_search", "key": "Enter", "pressMs": 20},
